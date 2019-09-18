@@ -190,6 +190,10 @@ article .article-metadata {
   font-weight: bold;
 }
 
+.pub .pub-type:not(:last-of-type):after {
+  content: ",";
+}
+
 #container-publications {
   display: block;
   position: relative;
